@@ -1,75 +1,1208 @@
 <!DOCTYPE html>
-
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Instagram Feed</title>
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-    />
-    <link rel="stylesheet" href="insta.css" />
-  </head>
-
-  <body>
-    <div class="container" id="one">
-      <header>
-        <div class="profile">
-          <div class="profile-image">
-            <img
-              src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png"
-              alt=""
-            />
-          </div>
-
-          <div class="search">
-            <input class="search-input" placeholder="Search" />
-          </div>
-          <div class="nav">
-            <span><a href="/" tabindex="0"><svg aria-label="Home" class="_8-yf5 " fill="#262626" height="22" viewBox="0 0 48 48"
-                  width="22">
-                  <path
-                    d="M45.5 48H30.1c-.8 0-1.5-.7-1.5-1.5V34.2c0-2.6-2.1-4.6-4.6-4.6s-4.6 2.1-4.6 4.6v12.3c0 .8-.7 1.5-1.5 1.5H2.5c-.8 0-1.5-.7-1.5-1.5V23c0-.4.2-.8.4-1.1L22.9.4c.6-.6 1.6-.6 2.1 0l21.5 21.5c.3.3.4.7.4 1.1v23.5c.1.8-.6 1.5-1.4 1.5z">
-                  </path>
-                </svg></a></span>
-            <span><a class="xWeGp" href="/direct/inbox/" tabindex="0"><svg aria-label="Direct" class="_8-yf5 " fill="#262626"
-                  height="22" viewBox="0 0 48 48" width="22">
-                  <path
-                    d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
-                  </path>
-                </svg></a></span>
-            <span>
-              <a href="/explore/" tabindex="0"><svg aria-label="Find People" class="_8-yf5 " fill="#262626" height="22"
-                  viewBox="0 0 48 48" width="22">
-                  <path clip-rule="evenodd"
-                    d="M24 0C10.8 0 0 10.8 0 24s10.8 24 24 24 24-10.8 24-24S37.2 0 24 0zm0 45C12.4 45 3 35.6 3 24S12.4 3 24 3s21 9.4 21 21-9.4 21-21 21zm10.2-33.2l-14.8 7c-.3.1-.6.4-.7.7l-7 14.8c-.3.6-.2 1.3.3 1.7.3.3.7.4 1.1.4.2 0 .4 0 .6-.1l14.8-7c.3-.1.6-.4.7-.7l7-14.8c.3-.6.2-1.3-.3-1.7-.4-.5-1.1-.6-1.7-.3zm-7.4 15l-5.5-5.5 10.5-5-5 10.5z"
-                    fill-rule="evenodd"></path>
-                </svg></a>
-            </span>
-            <span>
-              <a class="_0ZPOP kIKUG  " href="/accounts/activity/"><svg aria-label="Activity Feed" class="_8-yf5 " fill="#262626"
-                  height="22" viewBox="0 0 48 48" width="22">
-                  <path
-                    d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
-                  </path>
-                </svg></a>
-            </span>
-          </div>
-        </div>
-         
-          </div>
-      </header>
-
-      <main>
-    
-      </main>
-    </div>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Instagram Feed</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+        <link rel="stylesheet" href="insta.css">
+    </head>
+    <body>
+        <!-- Navigation top bar -->
+        <div class="container" id="one">
+            <header>
+                <div class="profile _lz6s">
+                    <div class="profile-image">
+                        <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png" alt="">
+                    </div>
+                    <div class="search">
+                        <input class="search-input" placeholder="Search">
+                    </div>
+                    <div class="nav">
+                        <span>
+                            <a href="/" tabindex="0">
+                                <svg
+                                    aria-label="Home"
+                                    class="_8-yf5 "
+                                    fill="#262626"
+                                    height="22"
+                                    viewBox="0 0 48 48"
+                                    width="22"
+                                >
+                                    <path d="M45.5 48H30.1c-.8 0-1.5-.7-1.5-1.5V34.2c0-2.6-2.1-4.6-4.6-4.6s-4.6 2.1-4.6 4.6v12.3c0 .8-.7 1.5-1.5 1.5H2.5c-.8 0-1.5-.7-1.5-1.5V23c0-.4.2-.8.4-1.1L22.9.4c.6-.6 1.6-.6 2.1 0l21.5 21.5c.3.3.4.7.4 1.1v23.5c.1.8-.6 1.5-1.4 1.5z"></path>
+                                </svg>
+                            </a>
+                        </span>
+                        <span>
+                            <a class="xWeGp" href="/direct/inbox/" tabindex="0">
+                                <svg
+                                    aria-label="Direct"
+                                    class="_8-yf5 "
+                                    fill="#262626"
+                                    height="22"
+                                    viewBox="0 0 48 48"
+                                    width="22"
+                                >
+                                    <path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path>
+                                </svg>
+                            </a>
+                        </span>
+                        <span>
+                            <a href="/explore/" tabindex="0">
+                                <svg
+                                    aria-label="Find People"
+                                    class="_8-yf5 "
+                                    fill="#262626"
+                                    height="22"
+                                    viewBox="0 0 48 48"
+                                    width="22"
+                                >
+                                    <path clip-rule="evenodd" d="M24 0C10.8 0 0 10.8 0 24s10.8 24 24 24 24-10.8 24-24S37.2 0 24 0zm0 45C12.4 45 3 35.6 3 24S12.4 3 24 3s21 9.4 21 21-9.4 21-21 21zm10.2-33.2l-14.8 7c-.3.1-.6.4-.7.7l-7 14.8c-.3.6-.2 1.3.3 1.7.3.3.7.4 1.1.4.2 0 .4 0 .6-.1l14.8-7c.3-.1.6-.4.7-.7l7-14.8c.3-.6.2-1.3-.3-1.7-.4-.5-1.1-.6-1.7-.3zm-7.4 15l-5.5-5.5 10.5-5-5 10.5z" fill-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                        </span>
+                        <span>
+                            <a class="_0ZPOP kIKUG  " href="/accounts/activity/">
+                                <svg
+                                    aria-label="Activity Feed"
+                                    class="_8-yf5 "
+                                    fill="#262626"
+                                    height="22"
+                                    viewBox="0 0 48 48"
+                                    width="22"
+                                >
+                                    <path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path>
+                                </svg>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- Header-> Story feed -->
+            <section class="j9XKR">
+                <div class="cGcGK">
+                    <div class="feed">
+                        <ul class="vi798">
+                            <li class="Ckrof" style="transform: translateX(10px);">
+                                <div class="Fd_fQ">
+                                    <button class="OE3OK " role="menuitem" tabindex="0">
+                                        <div class="RR-M-  QN629" aria-disabled="true" role="button">
+                                            <canvas
+                                                class="CfWVH"
+                                                height="66"
+                                                width="66"
+                                                style="position: absolute; top: -5px; left: -5px; width: 66px; height: 66px;"
+                                            ></canvas>
+                                            <span class="_2dbep " role="link" style="width: 56px; height: 56px;">
+                                                <img
+                                                    alt="devchyderabad's profile picture"
+                                                    class="_6q-tv"
+                                                    data-testid="user-avatar"
+                                                    draggable="false"
+                                                    src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/120344624_800299310798006_784786748403248924_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=ijxuLvG4wtkAX-qtSyW&amp;oh=be1c4487caf090ce32bceaefc43ef518&amp;oe=5FA59560"
+                                                >
+                                            </span>
+                                        </div>
+                                        <div class="eebAO  h_uhZ">devchyderabad</div>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="Ckrof" style="transform: translateX(90px);">
+                                <div class="Fd_fQ">
+                                    <button class="OE3OK " role="menuitem" tabindex="0">
+                                        <div class="RR-M-  QN629" aria-disabled="true" role="button">
+                                            <canvas
+                                                class="CfWVH"
+                                                height="66"
+                                                width="66"
+                                                style="position: absolute; top: -5px; left: -5px; width: 66px; height: 66px;"
+                                            ></canvas>
+                                            <span class="_2dbep " role="link" style="width: 56px; height: 56px;">
+                                                <img
+                                                    alt="joeel56's profile picture"
+                                                    class="_6q-tv"
+                                                    data-testid="user-avatar"
+                                                    draggable="false"
+                                                    src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/94494012_1541232089364998_4482680228946116608_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=k4pUPmu2BSEAX9-ySUx&amp;oh=5e86ec454a3ea914386ff76d9e6aff26&amp;oe=5FA773D6"
+                                                >
+                                            </span>
+                                        </div>
+                                        <div class="eebAO  h_uhZ">joeel56</div>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="Ckrof" style="transform: translateX(170px);">
+                                <div class="Fd_fQ">
+                                    <button class="OE3OK " role="menuitem" tabindex="0">
+                                        <div class="RR-M-  QN629" aria-disabled="true" role="button">
+                                            <canvas
+                                                class="CfWVH"
+                                                height="66"
+                                                width="66"
+                                                style="position: absolute; top: -5px; left: -5px; width: 66px; height: 66px;"
+                                            ></canvas>
+                                            <span class="_2dbep " role="link" style="width: 56px; height: 56px;">
+                                                <img
+                                                    alt="shivam_725's profile picture"
+                                                    class="_6q-tv"
+                                                    data-testid="user-avatar"
+                                                    draggable="false"
+                                                    src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/118980369_2777098462535061_5831629415508860479_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=vMTMnR__wK4AX_4VtIr&amp;oh=2660d8e4fa773698c15df7bff832d854&amp;oe=5FA671D8"
+                                                >
+                                            </span>
+                                        </div>
+                                        <div class="eebAO  h_uhZ">shivam_725</div>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="Ckrof" style="transform: translateX(250px);">
+                                <div class="Fd_fQ">
+                                    <button class="OE3OK " role="menuitem" tabindex="0">
+                                        <div class="RR-M-  QN629" aria-disabled="true" role="button">
+                                            <canvas
+                                                class="CfWVH"
+                                                height="66"
+                                                width="66"
+                                                style="position: absolute; top: -5px; left: -5px; width: 66px; height: 66px;"
+                                            ></canvas>
+                                            <span class="_2dbep " role="link" style="width: 56px; height: 56px;">
+                                                <img
+                                                    alt="yoga_with_kush's profile picture"
+                                                    class="_6q-tv"
+                                                    data-testid="user-avatar"
+                                                    draggable="false"
+                                                    src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/67631734_1229566260559249_3064965825808039936_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=jnvSTKHoMlQAX-M0wo1&amp;oh=dc5ef57fd80b702ada58b6abd5f5b5fe&amp;oe=5FA91DF4"
+                                                >
+                                            </span>
+                                        </div>
+                                        <div class="eebAO  h_uhZ">yoga_with_kush</div>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="Ckrof" style="transform: translateX(330px);">
+                                <div class="Fd_fQ">
+                                    <button class="OE3OK " role="menuitem" tabindex="0">
+                                        <div class="RR-M-  QN629" aria-disabled="true" role="button">
+                                            <canvas
+                                                class="CfWVH"
+                                                height="66"
+                                                width="66"
+                                                style="position: absolute; top: -5px; left: -5px; width: 66px; height: 66px;"
+                                            ></canvas>
+                                            <span class="_2dbep " role="link" style="width: 56px; height: 56px;">
+                                                <img
+                                                    alt="sonali_swami's profile picture"
+                                                    class="_6q-tv"
+                                                    data-testid="user-avatar"
+                                                    draggable="false"
+                                                    src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/117408311_297958808103815_1654203839703224029_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=WVpMgb6C68QAX8hx646&amp;oh=9fdfe360a9e4ccf42ee86bfe942d0424&amp;oe=5FA73E6F"
+                                                >
+                                            </span>
+                                        </div>
+                                        <div class="eebAO  h_uhZ">sonali_swami</div>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="Ckrof" style="transform: translateX(410px);">
+                                <div class="Fd_fQ">
+                                    <button class="OE3OK " role="menuitem" tabindex="0">
+                                        <div class="RR-M-  QN629" aria-disabled="true" role="button">
+                                            <canvas
+                                                class="CfWVH"
+                                                height="66"
+                                                width="66"
+                                                style="position: absolute; top: -5px; left: -5px; width: 66px; height: 66px;"
+                                            ></canvas>
+                                            <span class="_2dbep " role="link" style="width: 56px; height: 56px;">
+                                                <img
+                                                    alt="reallydes's profile picture"
+                                                    class="_6q-tv"
+                                                    data-testid="user-avatar"
+                                                    draggable="false"
+                                                    src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/118411993_167651824937524_819065964026500401_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=B8vGWa13lxsAX-Ak_18&amp;oh=f79b232ea2848e5eac8d216e916f41ef&amp;oe=5FA7B923"
+                                                >
+                                            </span>
+                                        </div>
+                                        <div class="eebAO  h_uhZ">reallydes</div>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="Ckrof" style="transform: translateX(490px);">
+                                <div class="Fd_fQ">
+                                    <button class="OE3OK " role="menuitem" tabindex="0">
+                                        <div class="RR-M-  QN629" aria-disabled="true" role="button">
+                                            <canvas
+                                                class="CfWVH"
+                                                height="66"
+                                                width="66"
+                                                style="position: absolute; top: -5px; left: -5px; width: 66px; height: 66px;"
+                                            ></canvas>
+                                            <span class="_2dbep " role="link" style="width: 56px; height: 56px;">
+                                                <img
+                                                    alt="_xanaaa's profile picture"
+                                                    class="_6q-tv"
+                                                    data-testid="user-avatar"
+                                                    draggable="false"
+                                                    src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/117419431_423522011941701_5930553542265152443_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=R2zzuR4HXpYAX9GLjwB&amp;oh=ba3d0101bc79cd159aaa3e3f2b43d53a&amp;oe=5FA7DB38"
+                                                >
+                                            </span>
+                                        </div>
+                                        <div class="eebAO  h_uhZ">_xanaaa</div>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- new uploads of people you follow -->
+                    <div>
+                        <div class="card">
+                            <div class="card-header">
+                                <img
+                                    alt="scoopwhoop's profile picture"
+                                    class="card-logo"
+                                    data-testid="user-avatar"
+                                    draggable="false"
+                                    src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/120249283_753625795500229_1453379391031000718_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=PBbrelxbmzUAX-DSAqw&amp;oh=e562f2b73d3d94dc42e1a69b3283a84e&amp;oe=5FA7BA3B"
+                                >
+                                <a class="card-name">scoopwhoop</a>
+                                <svg
+                                    aria-label="More options"
+                                    class="option"
+                                    fill="#262626"
+                                    height="16"
+                                    viewBox="0 0 48 48"
+                                    width="16"
+                                >
+                                    <circle
+                                        clip-rule="evenodd"
+                                        cx="8"
+                                        cy="24"
+                                        fill-rule="evenodd"
+                                        r="4.5"
+                                    ></circle>
+                                    <circle
+                                        clip-rule="evenodd"
+                                        cx="24"
+                                        cy="24"
+                                        fill-rule="evenodd"
+                                        r="4.5"
+                                    ></circle>
+                                    <circle
+                                        clip-rule="evenodd"
+                                        cx="40"
+                                        cy="24"
+                                        fill-rule="evenodd"
+                                        r="4.5"
+                                    ></circle>
+                                </svg>
+                            </div>
+                            <div class="KL4Bh">
+                                <img
+                                    alt="Photo by Akhand | प्रताप सिंह तोमर. on October 07, 2020. Image may contain: night."
+                                    class="FFVAD"
+                                    decoding="auto"
+                                    style="object-fit: cover;"
+                                    sizes="614px"
+                                    srcset="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;oh=d2b749ba1833eff88e1ec340df806cc2&amp;oe=5FA5F8A4 640w,https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/e35/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;_nc_tp=18&amp;oh=20786a0d6e5a8a48a617c84b6ef53c69&amp;oe=5FA9031A 750w,https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/e35/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;_nc_tp=18&amp;oh=20786a0d6e5a8a48a617c84b6ef53c69&amp;oe=5FA9031A 1080w"
+                                    src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/e35/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;_nc_tp=18&amp;oh=20786a0d6e5a8a48a617c84b6ef53c69&amp;oe=5FA9031A"
+                                >
+                            </div>
+                            <section class="gesture">
+                                <span class="">
+                                    <svg
+                                        aria-label="Like"
+                                        class="_8-yf5 "
+                                        fill="#262626"
+                                        height="24"
+                                        viewBox="0 0 48 48"
+                                        width="24"
+                                    >
+                                        <path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path>
+                                    </svg>
+                                </span>
+                                <span class="_15y0l">
+                                    <svg
+                                        aria-label="Comment"
+                                        class="_8-yf5 "
+                                        fill="#262626"
+                                        height="24"
+                                        viewBox="0 0 48 48"
+                                        width="24"
+                                    >
+                                        <path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path>
+                                    </svg>
+                                </span>
+                                <span class="QBdPU ">
+                                    <svg
+                                        aria-label="Share Post"
+                                        class="_8-yf5 "
+                                        fill="#262626"
+                                        height="24"
+                                        viewBox="0 0 48 48"
+                                        width="24"
+                                    >
+                                        <path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path>
+                                    </svg>
+                                </span>
+                                <span class="last ">
+                                    <svg
+                                        aria-label="Save"
+                                        class="_8-yf5 "
+                                        fill="#262626"
+                                        height="24"
+                                        viewBox="0 0 48 48"
+                                        width="24"
+                                    >
+                                        <path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path>
+                                    </svg>
+                                </span>
+                            </section>
+                            <section>
+                                <p class="likes">167,708 likes</p>
+                            </section>
+                            <section>
+                                <p class="likes">
+                                    therock
+                                </p>
+                                <p class="caption">fans in the house!</p>
+                            </section>
+                            <section>
+                                <p class="comment">
+                                    View all 638 comments
+                                </p>
+                            </section>
+                            <section>
+                                <p class="likes">
+                                    dadadad
+                                </p>
+                                <p class="caption">The content can consist of multiple elements of varying type, eg: images, texts, buttons, etc.</p>
+                            </section>
+                            <section>
+                                <p class="likes">
+                                    therdasdaock
+                                </p>
+                                elements of varying type, eg: images, texts, buttons, etc.
+                            </p>
+                        </section>
+                        <section class="sH9wk  _JgwE ">
+                            <textarea placeholder="Add a comment"></textarea>
+                        </section>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <div class="card-header">
+                                <img
+                                    alt="scoopwhoop's profile picture"
+                                    class="card-logo"
+                                    data-testid="user-avatar"
+                                    draggable="false"
+                                    src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/120249283_753625795500229_1453379391031000718_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=PBbrelxbmzUAX-DSAqw&amp;oh=e562f2b73d3d94dc42e1a69b3283a84e&amp;oe=5FA7BA3B"
+                                >
+                                <a class="card-name">scoopwhoop</a>
+                                <svg
+                                    aria-label="More options"
+                                    class="option"
+                                    fill="#262626"
+                                    height="16"
+                                    viewBox="0 0 48 48"
+                                    width="16"
+                                >
+                                    <circle
+                                        clip-rule="evenodd"
+                                        cx="8"
+                                        cy="24"
+                                        fill-rule="evenodd"
+                                        r="4.5"
+                                    ></circle>
+                                    <circle
+                                        clip-rule="evenodd"
+                                        cx="24"
+                                        cy="24"
+                                        fill-rule="evenodd"
+                                        r="4.5"
+                                    ></circle>
+                                    <circle
+                                        clip-rule="evenodd"
+                                        cx="40"
+                                        cy="24"
+                                        fill-rule="evenodd"
+                                        r="4.5"
+                                    ></circle>
+                                </svg>
+                            </div>
+                            <div class="KL4Bh">
+                                <img
+                                    alt="Photo by Akhand | प्रताप सिंह तोमर. on October 07, 2020. Image may contain: night."
+                                    class="FFVAD"
+                                    decoding="auto"
+                                    style="object-fit: cover;"
+                                    sizes="614px"
+                                    srcset="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;oh=d2b749ba1833eff88e1ec340df806cc2&amp;oe=5FA5F8A4 640w,https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/e35/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;_nc_tp=18&amp;oh=20786a0d6e5a8a48a617c84b6ef53c69&amp;oe=5FA9031A 750w,https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/e35/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;_nc_tp=18&amp;oh=20786a0d6e5a8a48a617c84b6ef53c69&amp;oe=5FA9031A 1080w"
+                                    src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/e35/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;_nc_tp=18&amp;oh=20786a0d6e5a8a48a617c84b6ef53c69&amp;oe=5FA9031A"
+                                >
+                            </div>
+                            <section class="gesture">
+                                <span class="">
+                                    <svg
+                                        aria-label="Like"
+                                        class="_8-yf5 "
+                                        fill="#262626"
+                                        height="24"
+                                        viewBox="0 0 48 48"
+                                        width="24"
+                                    >
+                                        <path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path>
+                                    </svg>
+                                </span>
+                                <span class="_15y0l">
+                                    <svg
+                                        aria-label="Comment"
+                                        class="_8-yf5 "
+                                        fill="#262626"
+                                        height="24"
+                                        viewBox="0 0 48 48"
+                                        width="24"
+                                    >
+                                        <path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path>
+                                    </svg>
+                                </span>
+                                <span class="QBdPU ">
+                                    <svg
+                                        aria-label="Share Post"
+                                        class="_8-yf5 "
+                                        fill="#262626"
+                                        height="24"
+                                        viewBox="0 0 48 48"
+                                        width="24"
+                                    >
+                                        <path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path>
+                                    </svg>
+                                </span>
+                                <span class="last ">
+                                    <svg
+                                        aria-label="Save"
+                                        class="_8-yf5 "
+                                        fill="#262626"
+                                        height="24"
+                                        viewBox="0 0 48 48"
+                                        width="24"
+                                    >
+                                        <path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path>
+                                    </svg>
+                                </span>
+                            </section>
+                            <section>
+                                <p class="likes">167,708 likes</p>
+                            </section>
+                            <section>
+                                <p class="likes">
+                                    therock
+                                </p>
+                                <p class="caption">fans in the house!</p>
+                            </section>
+                            <section>
+                                <p class="comment">
+                                    View all 638 comments
+                                </p>
+                            </section>
+                            <section>
+                                <p class="likes">
+                                    dadadad
+                                </p>
+                                <p class="caption">
+                                    The content can consist of multiple elements of varying type, eg: images, texts, buttons, etc.
+                                </p>
+                            </section>
+                            <section>
+                                <p class="likes">
+                                    therdasdaock
+                                </p>
+                                elements of varying type, eg: images, texts, buttons, etc.
+                            </p>
+                        </section>
+                        <section class="sH9wk  _JgwE ">
+                            <textarea placeholder="Add a comment"></textarea>
+                        </section>
+                    </div>
+                    <!-- new uploads of people you follow -->
+                    <div class="card">
+                        <div class="card-header">
+                            <img
+                                alt="scoopwhoop's profile picture"
+                                class="card-logo"
+                                data-testid="user-avatar"
+                                draggable="false"
+                                src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/120249283_753625795500229_1453379391031000718_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=PBbrelxbmzUAX-DSAqw&amp;oh=e562f2b73d3d94dc42e1a69b3283a84e&amp;oe=5FA7BA3B"
+                            >
+                            <a class="card-name">scoopwhoop</a>
+                            <svg
+                                aria-label="More options"
+                                class="option"
+                                fill="#262626"
+                                height="16"
+                                viewBox="0 0 48 48"
+                                width="16"
+                            >
+                                <circle
+                                    clip-rule="evenodd"
+                                    cx="8"
+                                    cy="24"
+                                    fill-rule="evenodd"
+                                    r="4.5"
+                                ></circle>
+                                <circle
+                                    clip-rule="evenodd"
+                                    cx="24"
+                                    cy="24"
+                                    fill-rule="evenodd"
+                                    r="4.5"
+                                ></circle>
+                                <circle
+                                    clip-rule="evenodd"
+                                    cx="40"
+                                    cy="24"
+                                    fill-rule="evenodd"
+                                    r="4.5"
+                                ></circle>
+                            </svg>
+                        </div>
+                        <div class="KL4Bh">
+                            <img
+                                alt="Photo by Akhand | प्रताप सिंह तोमर. on October 07, 2020. Image may contain: night."
+                                class="FFVAD"
+                                decoding="auto"
+                                style="object-fit: cover;"
+                                sizes="614px"
+                                srcset="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;oh=d2b749ba1833eff88e1ec340df806cc2&amp;oe=5FA5F8A4 640w,https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/e35/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;_nc_tp=18&amp;oh=20786a0d6e5a8a48a617c84b6ef53c69&amp;oe=5FA9031A 750w,https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/e35/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;_nc_tp=18&amp;oh=20786a0d6e5a8a48a617c84b6ef53c69&amp;oe=5FA9031A 1080w"
+                                src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/e35/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;_nc_tp=18&amp;oh=20786a0d6e5a8a48a617c84b6ef53c69&amp;oe=5FA9031A"
+                            >
+                        </div>
+                        <section class="gesture">
+                            <span class="">
+                                <svg
+                                    aria-label="Like"
+                                    class="_8-yf5 "
+                                    fill="#262626"
+                                    height="24"
+                                    viewBox="0 0 48 48"
+                                    width="24"
+                                >
+                                    <path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path>
+                                </svg>
+                            </span>
+                            <span class="_15y0l">
+                                <svg
+                                    aria-label="Comment"
+                                    class="_8-yf5 "
+                                    fill="#262626"
+                                    height="24"
+                                    viewBox="0 0 48 48"
+                                    width="24"
+                                >
+                                    <path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path>
+                                </svg>
+                            </span>
+                            <span class="QBdPU ">
+                                <svg
+                                    aria-label="Share Post"
+                                    class="_8-yf5 "
+                                    fill="#262626"
+                                    height="24"
+                                    viewBox="0 0 48 48"
+                                    width="24"
+                                >
+                                    <path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path>
+                                </svg>
+                            </span>
+                            <span class="last ">
+                                <svg
+                                    aria-label="Save"
+                                    class="_8-yf5 "
+                                    fill="#262626"
+                                    height="24"
+                                    viewBox="0 0 48 48"
+                                    width="24"
+                                >
+                                    <path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path>
+                                </svg>
+                            </span>
+                        </section>
+                        <section>
+                            <p class="likes">167,708 likes</p>
+                        </section>
+                        <section>
+                            <p class="likes">
+                                therock
+                            </p>
+                            <p class="caption">fans in the house!</p>
+                        </section>
+                        <section>
+                            <p class="comment">
+                                View all 638 comments
+                            </p>
+                        </section>
+                        <section>
+                            <p class="likes">
+                                dadadad
+                            </p>
+                            <p class="caption">
+                                The content can consist of multiple elements of varying type, eg: images, texts, buttons, etc.
+                            </p>
+                        </section>
+                        <section>
+                            <p class="likes">
+                                therdasdaock
+                            </p>
+                            elements of varying type, eg: images, texts, buttons, etc.
+                        </p>
+                    </section>
+                    <section class="sH9wk  _JgwE ">
+                        <textarea placeholder="Add a comment"></textarea>
+                    </section>
+                    <div class="card">
+                        <div class="card-header">
+                            <img
+                                alt="scoopwhoop's profile picture"
+                                class="card-logo"
+                                data-testid="user-avatar"
+                                draggable="false"
+                                src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/120249283_753625795500229_1453379391031000718_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=PBbrelxbmzUAX-DSAqw&amp;oh=e562f2b73d3d94dc42e1a69b3283a84e&amp;oe=5FA7BA3B"
+                            >
+                            <a class="card-name">scoopwhoop</a>
+                            <svg
+                                aria-label="More options"
+                                class="option"
+                                fill="#262626"
+                                height="16"
+                                viewBox="0 0 48 48"
+                                width="16"
+                            >
+                                <circle
+                                    clip-rule="evenodd"
+                                    cx="8"
+                                    cy="24"
+                                    fill-rule="evenodd"
+                                    r="4.5"
+                                ></circle>
+                                <circle
+                                    clip-rule="evenodd"
+                                    cx="24"
+                                    cy="24"
+                                    fill-rule="evenodd"
+                                    r="4.5"
+                                ></circle>
+                                <circle
+                                    clip-rule="evenodd"
+                                    cx="40"
+                                    cy="24"
+                                    fill-rule="evenodd"
+                                    r="4.5"
+                                ></circle>
+                            </svg>
+                        </div>
+                        <div class="KL4Bh">
+                            <img
+                                alt="Photo by Akhand | प्रताप सिंह तोमर. on October 07, 2020. Image may contain: night."
+                                class="FFVAD"
+                                decoding="auto"
+                                style="object-fit: cover;"
+                                sizes="614px"
+                                srcset="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;oh=d2b749ba1833eff88e1ec340df806cc2&amp;oe=5FA5F8A4 640w,https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/e35/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;_nc_tp=18&amp;oh=20786a0d6e5a8a48a617c84b6ef53c69&amp;oe=5FA9031A 750w,https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/e35/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;_nc_tp=18&amp;oh=20786a0d6e5a8a48a617c84b6ef53c69&amp;oe=5FA9031A 1080w"
+                                src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-15/e35/120931621_103678548138411_6701863481570966990_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_cat=103&amp;_nc_ohc=VVxVw6jtJloAX9d965T&amp;_nc_tp=18&amp;oh=20786a0d6e5a8a48a617c84b6ef53c69&amp;oe=5FA9031A"
+                            >
+                        </div>
+                        <section class="gesture">
+                            <span class="">
+                                <svg
+                                    aria-label="Like"
+                                    class="_8-yf5 "
+                                    fill="#262626"
+                                    height="24"
+                                    viewBox="0 0 48 48"
+                                    width="24"
+                                >
+                                    <path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path>
+                                </svg>
+                            </span>
+                            <span class="_15y0l">
+                                <svg
+                                    aria-label="Comment"
+                                    class="_8-yf5 "
+                                    fill="#262626"
+                                    height="24"
+                                    viewBox="0 0 48 48"
+                                    width="24"
+                                >
+                                    <path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path>
+                                </svg>
+                            </span>
+                            <span class="QBdPU ">
+                                <svg
+                                    aria-label="Share Post"
+                                    class="_8-yf5 "
+                                    fill="#262626"
+                                    height="24"
+                                    viewBox="0 0 48 48"
+                                    width="24"
+                                >
+                                    <path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path>
+                                </svg>
+                            </span>
+                            <span class="last ">
+                                <svg
+                                    aria-label="Save"
+                                    class="_8-yf5 "
+                                    fill="#262626"
+                                    height="24"
+                                    viewBox="0 0 48 48"
+                                    width="24"
+                                >
+                                    <path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path>
+                                </svg>
+                            </span>
+                        </section>
+                        <section>
+                            <p class="likes">167,708 likes</p>
+                        </section>
+                        <section>
+                            <p class="likes">
+                                therock
+                            </p>
+                            <p class="caption">fans in the house!</p>
+                        </section>
+                        <section>
+                            <p class="comment">
+                                View all 638 comments
+                            </p>
+                        </section>
+                        <section>
+                            <p class="likes">
+                                dadadad
+                            </p>
+                            <p class="caption">
+                                The content can consist of multiple elements of varying type, eg: images, texts, buttons, etc.
+                            </p>
+                        </section>
+                        <section>
+                            <p class="likes">
+                                therdasdaock
+                            </p>
+                            elements of varying type, eg: images, texts, buttons, etc.
+                        </p>
+                    </section>
+                    <section class="sH9wk  _JgwE ">
+                        <textarea placeholder="Add a comment"></textarea>
+                    </section>
+                </div>
+            </div>
+            <div class="COOzN MnWb5 YT6rB" style="left: 1127px;">
+                <div class="m0NAq xrWdL">
+                    <div class="nwXS6 ON6Nq">
+                        <div class="RR-M-  _2NjG_" aria-disabled="true" role="button">
+                            <canvas
+                                class="CfWVH"
+                                height="66"
+                                width="66"
+                                style="position: absolute; top: -5px; left: -5px; width: 66px; height: 66px;"
+                            ></canvas>
+                            <a
+                                class="_2dbep qNELH kIKUG"
+                                href="/pratikshit____/"
+                                tabindex="0"
+                                style="width: 56px; height: 56px;"
+                            >
+                                <img
+                                    alt="pratikshit____'s profile picture"
+                                    class="_6q-tv"
+                                    data-testid="user-avatar"
+                                    draggable="false"
+                                    src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/17333477_460840274246982_2665241410071953408_a.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=PSpXO80Pu2cAX_mpS2B&amp;oh=a1e55d76f240a32cbacb5ba1484524ab&amp;oe=5FA72844"
+                                >
+                            </a>
+                        </div>
+                        <div class="_0v2O4 StX70">
+                            <div class="SKguc">
+                                <a class="gmFkV" href="/pratikshit____/" tabindex="0">pratikshit____</a>
+                            </div>
+                            <div class="f5Yes oL_O8">Pratikshit Singh</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="_8UZ6e">
+                    <div class="                    Igw0E   rBNOH        eGOV_     ybXk5    _4EzTm                                                           _49XvD                        XfCBB         XTCZH                  ">
+                        <div class="                    Igw0E     IwRSH      eGOV_        vwCYk                                                                                                               ">
+                            <div class="_7UhW9   xLCgt       qyrsm  _0PwGv         uL8Hv         ">Suggestions For You</div>
+                        </div>
+                        <a class="sqdOP yWX7d     _8A5w5   ZIAjV " href="/explore/people/" tabindex="0">
+                            <div class="_7UhW9  PIoXz        qyrsm KV-D4          uL8Hv         ">See All</div>
+                        </a>
+                    </div>
+                    <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm   pjcA_                  WKY0a                                                                                         ">
+                        <div class="      tHaIX              Igw0E     IwRSH      eGOV_         _4EzTm                                                                                             HVWg4                 ">
+                            <div style="height: auto; overflow: hidden auto;">
+                                <div style="flex-direction: column; padding-bottom: 0px; padding-top: 0px;">
+                                    <div aria-labelledby="f18b3226f21007 f14740a3a6235c" class="                    Igw0E   rBNOH        eGOV_     ybXk5    _4EzTm                                                                                   XfCBB          HVWg4                 ">
+                                        <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                         yC0tu                                                                     ">
+                                            <div class="Jv7Aj mArmR   pZp3x">
+                                                <div class="RR-M- " aria-disabled="true" role="button">
+                                                    <canvas
+                                                        class="CfWVH"
+                                                        height="42"
+                                                        width="42"
+                                                        style="position: absolute; top: -5px; left: -5px; width: 42px; height: 42px;"
+                                                    ></canvas>
+                                                    <a
+                                                        class="_2dbep qNELH kIKUG"
+                                                        href="/rishabhmittal_1607/"
+                                                        tabindex="0"
+                                                        style="width: 32px; height: 32px;"
+                                                    >
+                                                        <img
+                                                            alt="rishabhmittal_1607's profile picture"
+                                                            class="_6q-tv"
+                                                            data-testid="user-avatar"
+                                                            draggable="false"
+                                                            src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/77349453_539310156626125_6450450689955987456_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=p43sqMAFEuMAX93RSZQ&amp;oh=b44583602a6dd015379e17818036fd0f&amp;oe=5FA77B3C"
+                                                        >
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="                    Igw0E     IwRSH        YBx95      vwCYk                                                                                                               ">
+                                            <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                                                                                              " id="f18b3226f21007">
+                                                <div class="_7UhW9   xLCgt      MMzan  KV-D4          uL8Hv         ">
+                                                    <span class="Jv7Aj mArmR MqpiF  ">
+                                                        <a
+                                                            class="FPmhX notranslate MBL3Z"
+                                                            title="rishabhmittal_1607"
+                                                            href="/rishabhmittal_1607/"
+                                                            tabindex="0"
+                                                        >rishabhmittal_1607</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                                          DhRcB                                                    ">
+                                                <div class="_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         ">Suggested for you</div>
+                                            </div>
+                                        </div>
+                                        <div class="                    Igw0E   rBNOH          YBx95   ybXk5    _4EzTm                      soMvl                                                                                        ">
+                                            <button class="sqdOP yWX7d    y3zKF     " type="button">
+                                                <div class="_7UhW9  PIoXz        qyrsm           uL8Hv         ">Follow</div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div aria-labelledby="f237ef95f73aed8 f702406011511" class="                    Igw0E   rBNOH        eGOV_     ybXk5    _4EzTm                                                                                   XfCBB          HVWg4                 ">
+                                        <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                         yC0tu                                                                     ">
+                                            <div class="Jv7Aj mArmR   pZp3x">
+                                                <div class="RR-M- " aria-disabled="true" role="button">
+                                                    <canvas
+                                                        class="CfWVH"
+                                                        height="42"
+                                                        width="42"
+                                                        style="position: absolute; top: -5px; left: -5px; width: 42px; height: 42px;"
+                                                    ></canvas>
+                                                    <a
+                                                        class="_2dbep qNELH kIKUG"
+                                                        href="/ashutosh_singh9798/"
+                                                        tabindex="0"
+                                                        style="width: 32px; height: 32px;"
+                                                    >
+                                                        <img
+                                                            alt="ashutosh_singh9798's profile picture"
+                                                            class="_6q-tv"
+                                                            data-testid="user-avatar"
+                                                            draggable="false"
+                                                            src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/93810245_294520874847597_6014571355486289920_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=Wbe9lObWAnAAX-COP0V&amp;oh=2a800c27b2fe8234befae38ea8712cf3&amp;oe=5FA876BA"
+                                                        >
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="                    Igw0E     IwRSH        YBx95      vwCYk                                                                                                               ">
+                                            <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                                                                                              " id="f237ef95f73aed8">
+                                                <div class="_7UhW9   xLCgt      MMzan  KV-D4          uL8Hv         ">
+                                                    <span class="Jv7Aj mArmR MqpiF  ">
+                                                        <a
+                                                            class="FPmhX notranslate MBL3Z"
+                                                            title="ashutosh_singh9798"
+                                                            href="/ashutosh_singh9798/"
+                                                            tabindex="0"
+                                                        >ashutosh_singh9798</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                                          DhRcB                                                    ">
+                                                <div class="_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         ">Follows you</div>
+                                            </div>
+                                        </div>
+                                        <div class="                    Igw0E   rBNOH          YBx95   ybXk5    _4EzTm                      soMvl                                                                                        ">
+                                            <button class="sqdOP yWX7d    y3zKF     " type="button">
+                                                <div class="_7UhW9  PIoXz        qyrsm           uL8Hv         ">Follow</div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div aria-labelledby="fef37cd51fafa8 f8d6bb024f0698" class="                    Igw0E   rBNOH        eGOV_     ybXk5    _4EzTm                                                                                   XfCBB          HVWg4                 ">
+                                        <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                         yC0tu                                                                     ">
+                                            <div class="Jv7Aj mArmR   pZp3x">
+                                                <div
+                                                    class="RR-M- h5uC0"
+                                                    aria-disabled="false"
+                                                    role="button"
+                                                    tabindex="0"
+                                                >
+                                                    <canvas
+                                                        class="CfWVH"
+                                                        height="42"
+                                                        width="42"
+                                                        style="position: absolute; top: -5px; left: -5px; width: 42px; height: 42px;"
+                                                    ></canvas>
+                                                    <span class="_2dbep " role="link" style="width: 32px; height: 32px;">
+                                                        <img
+                                                            alt="twirl_toe's profile picture"
+                                                            class="_6q-tv"
+                                                            data-testid="user-avatar"
+                                                            draggable="false"
+                                                            src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/103135420_569475647095826_436017998886629413_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=8eSTJwl4stcAX8fH7wk&amp;oh=2681f91ee6440a75532e996580aa80c7&amp;oe=5FA6CA28"
+                                                        >
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="                    Igw0E     IwRSH        YBx95      vwCYk                                                                                                               ">
+                                            <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                                                                                              " id="fef37cd51fafa8">
+                                                <div class="_7UhW9   xLCgt      MMzan  KV-D4          uL8Hv         ">
+                                                    <span class="Jv7Aj mArmR MqpiF  ">
+                                                        <a
+                                                            class="FPmhX notranslate MBL3Z"
+                                                            title="twirl_toe"
+                                                            href="/twirl_toe/"
+                                                            tabindex="0"
+                                                        >twirl_toe</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                                          DhRcB                                                    ">
+                                                <div class="_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         ">
+                                                    Followed by anevething_aet + 9
+                              more
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="                    Igw0E   rBNOH          YBx95   ybXk5    _4EzTm                      soMvl                                                                                        ">
+                                            <button class="sqdOP yWX7d    y3zKF     " type="button">
+                                                <div class="_7UhW9  PIoXz        qyrsm           uL8Hv         ">Follow</div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div aria-labelledby="f29eaa6df9ec43 f3796aaad554fc8" class="                    Igw0E   rBNOH        eGOV_     ybXk5    _4EzTm                                                                                   XfCBB          HVWg4                 ">
+                                        <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                         yC0tu                                                                     ">
+                                            <div class="Jv7Aj mArmR   pZp3x">
+                                                <div class="RR-M- " aria-disabled="true" role="button">
+                                                    <canvas
+                                                        class="CfWVH"
+                                                        height="42"
+                                                        width="42"
+                                                        style="position: absolute; top: -5px; left: -5px; width: 42px; height: 42px;"
+                                                    ></canvas>
+                                                    <a
+                                                        class="_2dbep qNELH kIKUG"
+                                                        href="/yadav_khwaish/"
+                                                        tabindex="0"
+                                                        style="width: 32px; height: 32px;"
+                                                    >
+                                                        <img
+                                                            alt="yadav_khwaish's profile picture"
+                                                            class="_6q-tv"
+                                                            data-testid="user-avatar"
+                                                            draggable="false"
+                                                            src="https://scontent-sea1-1.cdninstagram.com/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com&amp;_nc_ohc=Z1z8mYF97DYAX9GYEdu&amp;oh=d61725fa48386bc59b1331e0c45c0096&amp;oe=5FA9F78F&amp;ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2"
+                                                        >
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="                    Igw0E     IwRSH        YBx95      vwCYk                                                                                                               ">
+                                            <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                                                                                              " id="f29eaa6df9ec43">
+                                                <div class="_7UhW9   xLCgt      MMzan  KV-D4          uL8Hv         ">
+                                                    <span class="Jv7Aj mArmR MqpiF  ">
+                                                        <a
+                                                            class="FPmhX notranslate MBL3Z"
+                                                            title="yadav_khwaish"
+                                                            href="/yadav_khwaish/"
+                                                            tabindex="0"
+                                                        >yadav_khwaish</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                                          DhRcB                                                    ">
+                                                <div class="_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         ">Suggested for you</div>
+                                            </div>
+                                        </div>
+                                        <div class="                    Igw0E   rBNOH          YBx95   ybXk5    _4EzTm                      soMvl                                                                                        ">
+                                            <button class="sqdOP yWX7d    y3zKF     " type="button">
+                                                <div class="_7UhW9  PIoXz        qyrsm           uL8Hv         ">Follow</div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div aria-labelledby="ffbe33a38461c4 f2202a234544e58" class="                    Igw0E   rBNOH        eGOV_     ybXk5    _4EzTm                                                                                   XfCBB          HVWg4                 ">
+                                        <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                         yC0tu                                                                     ">
+                                            <div class="Jv7Aj mArmR   pZp3x">
+                                                <div class="RR-M- " aria-disabled="true" role="button">
+                                                    <canvas
+                                                        class="CfWVH"
+                                                        height="42"
+                                                        width="42"
+                                                        style="position: absolute; top: -5px; left: -5px; width: 42px; height: 42px;"
+                                                    ></canvas>
+                                                    <a
+                                                        class="_2dbep qNELH kIKUG"
+                                                        href="/malothu.giribabu/"
+                                                        tabindex="0"
+                                                        style="width: 32px; height: 32px;"
+                                                    >
+                                                        <img
+                                                            alt="malothu.giribabu's profile picture"
+                                                            class="_6q-tv"
+                                                            data-testid="user-avatar"
+                                                            draggable="false"
+                                                            src="https://instagram.fknu1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/116438656_1092243704523522_6538437790566246562_n.jpg?_nc_ht=instagram.fknu1-1.fna.fbcdn.net&amp;_nc_ohc=uwjbn7SpDU4AX9UO1T4&amp;oh=bcf17fbf28987dde8aa93e8cb10d0510&amp;oe=5FA7446C"
+                                                        >
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="                    Igw0E     IwRSH        YBx95      vwCYk                                                                                                               ">
+                                            <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                                                                                              " id="ffbe33a38461c4">
+                                                <div class="_7UhW9   xLCgt      MMzan  KV-D4          uL8Hv         ">
+                                                    <span class="Jv7Aj mArmR MqpiF  ">
+                                                        <a
+                                                            class="FPmhX notranslate MBL3Z"
+                                                            title="malothu.giribabu"
+                                                            href="/malothu.giribabu/"
+                                                            tabindex="0"
+                                                        >malothu.giribabu</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="                    Igw0E     IwRSH      eGOV_         _4EzTm                                                          DhRcB                                                    ">
+                                                <div class="_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         ">Suggested for you</div>
+                                            </div>
+                                        </div>
+                                        <div class="                    Igw0E   rBNOH          YBx95   ybXk5    _4EzTm                      soMvl                                                                                        ">
+                                            <button class="sqdOP yWX7d    y3zKF     " type="button">
+                                                <div class="_7UhW9  PIoXz        qyrsm           uL8Hv         ">Follow</div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="   SkY6J">
+                    <nav class="uxKLF">
+                        <ul class="ixdEe _9Rlzb">
+                            <li class="K5OFK">
+                                <a
+                                    class="l93RR"
+                                    href="https://about.instagram.com/"
+                                    rel="nofollow noopener noreferrer"
+                                    target="_blank"
+                                >About</a>
+                            </li>
+                            <li class="K5OFK">
+                                <a class="l93RR" href="https://help.instagram.com/">Help</a>
+                            </li>
+                            <li class="K5OFK">
+                                <a class="l93RR" href="https://about.instagram.com/blog/">Press</a>
+                            </li>
+                            <li class="K5OFK">
+                                <a class="l93RR" href="/developer/">API</a>
+                            </li>
+                            <li class="K5OFK">
+                                <a class="l93RR" href="/about/jobs/">Jobs</a>
+                            </li>
+                            <li class="K5OFK">
+                                <a class="l93RR" href="/legal/privacy/">Privacy</a>
+                            </li>
+                            <li class="K5OFK">
+                                <a class="l93RR _vfM2" href="/legal/terms/">Terms</a>
+                            </li>
+                            <li class="K5OFK">
+                                <a class="l93RR" href="/explore/locations/">Locations</a>
+                            </li>
+                            <li class="K5OFK">
+                                <a class="l93RR" href="/directory/profiles/">Top Accounts</a>
+                            </li>
+                            <li class="K5OFK">
+                                <a class="l93RR" href="/directory/hashtags/">Hashtags</a>
+                            </li>
+                            <li class="K5OFK">
+                                <span class="_3G4x7   l93RR">
+                                    Language
+                                    <select aria-label="Switch Display Language" class="hztqj">
+                                        <option value="af">Afrikaans</option>
+                                        <option value="cs">Čeština</option>
+                                        <option value="da">Dansk</option>
+                                        <option value="de">Deutsch</option>
+                                        <option value="el">Ελληνικά</option>
+                                        <option value="en">English</option>
+                                        <option value="es">Español (España)</option>
+                                        <option value="es-la">Español</option>
+                                        <option value="fi">Suomi</option>
+                                        <option value="fr">Français</option>
+                                        <option value="id">Bahasa Indonesia</option>
+                                        <option value="it">Italiano</option>
+                                        <option value="ja">日本語</option>
+                                        <option value="ko">한국어</option>
+                                        <option value="ms">Bahasa Melayu</option>
+                                        <option value="nb">Norsk</option>
+                                        <option value="nl">Nederlands</option>
+                                        <option value="pl">Polski</option>
+                                        <option value="pt-br">Português (Brasil)</option>
+                                        <option value="pt">Português (Portugal)</option>
+                                        <option value="ru">Русский</option>
+                                        <option value="sv">Svenska</option>
+                                        <option value="th">ภาษาไทย</option>
+                                        <option value="tl">Filipino</option>
+                                        <option value="tr">Türkçe</option>
+                                        <option value="zh-cn">中文(简体)</option>
+                                        <option value="zh-tw">中文(台灣)</option>
+                                        <option value="bn">বাংলা</option>
+                                        <option value="gu">ગુજરાતી</option>
+                                        <option value="hi">हिन्दी</option>
+                                        <option value="hr">Hrvatski</option>
+                                        <option value="hu">Magyar</option>
+                                        <option value="kn">ಕನ್ನಡ</option>
+                                        <option value="ml">മലയാളം</option>
+                                        <option value="mr">मराठी</option>
+                                        <option value="ne">नेपाली</option>
+                                        <option value="pa">ਪੰਜਾਬੀ</option>
+                                        <option value="si">සිංහල</option>
+                                        <option value="sk">Slovenčina</option>
+                                        <option value="ta">தமிழ்</option>
+                                        <option value="te">తెలుగు</option>
+                                        <option value="vi">Tiếng Việt</option>
+                                        <option value="zh-hk">中文(香港)</option>
+                                        <option value="bg">Български</option>
+                                        <option value="fr-ca">Français (Canada)</option>
+                                        <option value="ro">Română</option>
+                                        <option value="sr">Српски</option>
+                                        <option value="uk">Українська</option>
+                                    </select>
+                                </span>
+                            </li>
+                        </ul>
+                    </nav>
+                    <span class="DINPA">© 2020 Instagram from Facebook</span>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+</body>
 </html>
