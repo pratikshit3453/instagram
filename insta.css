@@ -516,3 +516,38 @@ a:visited {
 /* .Fd_fQ {
   position: absolute;
 } */
+
+/* Media queries */
+
+@media only screen and (max-width: 1000px) {
+  .COOzN {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .profile {
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  main {
+    margin-left: 5%;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .search-input {
+    display: none;
+  }
+  .nav {
+    display: inline-flex;
+    margin-left: 143px;
+  }
+  main {
+    margin-left: 6%;
+    margin-right: 0;
+  }
+}
